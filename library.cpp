@@ -71,7 +71,7 @@ void Library::print(){
 
   std::cout << std::left << std::setw(25) << "Title" << std::setw(20)
             << "Publisher" << std::setw(15) << "Genre" << std::setw(10)
-            << "Hours Played" << std::endl;
+            << "Hours Played" << std::setw(6) << "Year" << std::endl;
   std::cout << "------------------------------------------------------------------------" << std::endl;
   //iterates through the list to print the data in an ordered manner
   std::list<Game>::iterator it;
