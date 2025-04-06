@@ -19,13 +19,15 @@ struct Game{
   std::string publisher;
   std::string genre;
   float hours;
+  float price; //added this since it was forgotten 
   int year;
   //constructor for initialization
-  Game(std::string t, std::string p, std::string g, float h, int y){
+  Game(std::string t, std::string p, std::string g, float h, float pr, int y){
     title = t;
     publisher = p;
     genre = g;
     hours = h;
+    price = pr;
     year = y;
   }
 };
