@@ -63,6 +63,34 @@ class Library{
  *
  */
   void print();
+  
+  void find_genre(std::string& genre);
+ 
+ /**
+  * takes a string genre name as a parameter and finds the game that has that genre
+  *
+  * @param std::string& genre input
+  * @return void return nothing
+  *
+  */
+   void find_game(std::string& title_part);
+ 
+ /**
+  * takes a string title name as a parameter and finds the game that has that title
+  *
+  * @param std::string& title keyword input
+  * @return void return nothing
+  *
+  */
+   void delete_game(std::string& title, int year);
+ 
+ /**
+  * takes a string title name and integer year as a parameter and deletes it from the game list
+  *
+  * @param std::string& title input
+  * @return void return nothing
+  *
+  */
 };
 
 #endif //LIBRARY_H
